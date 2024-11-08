@@ -1,0 +1,284 @@
+@import url('https://fonts.cdnfonts.com/css/magic-school-one');
+
+@import url('https://fonts.cdnfonts.com/css/enchanted-land');
+
+body{
+    font-family: sans-serif;
+    background-color: #10141b;
+    background-image: url(https://www.harrypotter.com/images/home/stars.png);
+    background-size: 100vh;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header__container h1{
+    font-size: 52px;
+    font-family: 'Magic School One';
+    color: #CD7F32;
+    padding: 10px 0;
+    background-color: #01001A;
+}
+
+.header__container p{
+    background-color: #0D173A;
+    color: #fff;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.header__nav{
+    background-color: #0D173A;
+    padding: 5px;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.header__menu li a{
+    text-decoration: none;
+    color: #CD7F32;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header__menu li a:hover{
+    background-color: #01001A;
+    border-radius: 20px;
+    transition: 0.30s ease-in-out;
+}
+
+.section--intro{
+    background-image: url(https://cdn.sortiraparis.com/images/1001/66131/855789-harry-potter-hogwarts-legacy-se-devoile-dans-sa-bande-annonce-de-lancement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.intro__banner{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 100px 0 0 0;
+}
+
+
+.intro__banner h2{
+    font-family: 'Magic School One';
+    color: #fff;
+    font-size: 52px;
+    padding: 10px 0;
+}
+
+.intro__banner p{
+    color: #fff;
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.intro__banner a{
+    color: transparent;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.section__content{
+    background-color: #01001A;
+    padding: 30px 0;
+    color: #fff;
+    max-width: none;
+}
+
+.section__content h2, .section__content h3{
+    font-family: 'Magic School Two';
+    font-size: 36px;
+    text-align: center;
+    color: #CD7F32;
+}
+
+.section__content p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section--gallery{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section--gallery h2{
+    font-family: 'Magic School Two';
+    font-size: 52px;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.gallery__grid{
+    display: flex;
+    gap: 36px;
+    padding: 0 0 15px 0;
+}
+
+.gallery__item img{
+    border-radius: 10px;
+}
+
+.gallery__item figcaption{
+    color: #fff;
+    padding: 10px 0;
+}
+
+.gallery__item button{
+    background-color: #5F5BFB;
+    border: 1px solid #5F5BFB;
+    color: #fff;
+    padding: 15px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery__item button:hover{
+    background-color: #0B163B;
+    border: 1px solid #5F5BFB;
+    transition: 0.30s ease-in-out;
+}
+    
+.section--news{
+    max-width: 1180px;
+    margin: 0 auto
+}
+
+.section--news h2{
+    font-family: 'Magic School Two';
+    font-size: 52px;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.news__item{
+    display: flex;
+    gap: 36px;
+    padding: 0 0 15px 0;
+}
+
+.news__item img{
+    border-radius: 10px;
+}
+
+.news__content{
+    color: #fff;
+}
+
+.news__content h3{
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.news__content p{
+    max-width: 75%;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.news__content button{
+    background-color: #5F5BFB;
+    border: 1px solid #5F5BFB;
+    color: #fff;
+    padding: 15px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.news__content button:hover{
+    background-color: #0B163B;
+    border: 1px solid #5F5BFB;
+    transition: 0.30s ease-in-out;
+}
+
+.news__content .news__date{
+    color: #CD7F32;
+}
+
+.form__group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.form__group input{
+    border: none;
+    background-color: #fff;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+
+.form__group label{
+    padding: 10px;
+}
+
+.form__group textarea{
+    border: none;
+    background-color: #fff;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+
+.contact__form button{
+    background-color: #5F5BFB;
+    border: 1px solid #5F5BFB;
+    color: #fff;
+    padding: 15px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact__form button:hover{
+    background-color: #0B163B;
+    border: 1px solid #5F5BFB;
+    transition: 0.30s ease-in-out;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer__content ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px 0;
+    list-style-type: none
+}
+
+.footer__content ul li a{
+    text-decoration: none;
+    color: #CD7F32;
+}
+
+.footer__content p{
+    text-align: center;
+}
+
+.service__item h3{
+    font-size: 26px;
+    font-family: 'Enchanted Land';
+}
